@@ -11118,6 +11118,11 @@ which@^2.0.1, which@^2.0.2:
   dependencies:
     isexe "^2.0.0"
 
+winbox@^0.1.81:
+  version "0.1.81"
+  resolved "https://registry.yarnpkg.com/winbox/-/winbox-0.1.81.tgz#4af15f57594f206de8f702ead309f5474629820b"
+  integrity sha512-01Gx57H0SEDLYBY0jOMmIkGx2DpsmfrrisZ54j+j5u3NUGgo5P2hWqayGIZ5D36cZtfsXK7+80IjvD01Ze5RoA==
+
 word-wrap@^1.2.3, word-wrap@~1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
