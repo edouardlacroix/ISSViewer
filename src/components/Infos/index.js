@@ -14,23 +14,27 @@ function Infos() {
         })
     }, [])
 
-    return (
-        <div className="infosWrapper">
-            <div className="numberWrapper">
-                <h1>
-                    Number of people aboard :
+    if (people) {
+        return (
+            <div className="infosWrapper">
+                <div className="numberWrapper">
+                    <h1>
+                        Number of people aboard :
                 </h1>
-                <p>{number}</p>
-            </div>
-            <div className="peoplesWrapper">
-                <h1>
-                    People aboard :
+                    <p>{number}</p>
+                </div>
+                <div className="peoplesWrapper">
+                    <h1>
+                        People aboard :
                 </h1>
-                {people && people.map(item => { return <p>{item.name}</p> })}
-            </div>
+                    {people && people.map(item => { return <p>{item.name}</p> })}
+                </div>
 
-        </div>
-    );
+            </div>
+        );
+    } else {
+        return (null)
+    }
 }
 
 export default Infos;
